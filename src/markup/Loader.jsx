@@ -9,7 +9,7 @@ function Loader() {
   ariaLabel="circles-loading"
   wrapperStyle={{}}
   wrapperClass=""
-  visible={true}
+      visible={true}
 />;
 }
 

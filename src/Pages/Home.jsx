@@ -71,9 +71,9 @@ function Home() {
           <MarkupCorses objectСourse={coursesPerPage} />
           
             <ButtonGroup variant="text" aria-label="outlined button group" >
-            {previousPage && <Button variant="outlined" type="button" onClick={() => decrementPage()}>назад</Button>}
+            {previousPage && <Button variant="outlined" type="button" onClick={() => decrementPage()}>Previous</Button>}
             <p style={{"border" : "thick double #32a1ce" , 'width': '60px'}}>{page}</p>
-            {nextPage && <Button variant="outlined" type="button" onClick={() => incrementPage()}>вперед</Button>}
+            {nextPage && <Button variant="outlined" type="button" onClick={() => incrementPage()}>Next</Button>}
             </ButtonGroup>
       </>
       }
